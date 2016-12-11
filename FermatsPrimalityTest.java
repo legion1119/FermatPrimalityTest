@@ -29,19 +29,6 @@ public class FermatsPrimalityTest
 		}
 		
 		return true;
-		/*while(isAPrime == true && iteration < 10)
-		{
-			a = 2 + rand.nextInt(data - 2);
-			A = BigInteger.valueOf(a);
-			TESTCASE = A.pow(data-1);
-			DATA = BigInteger.valueOf(data);
-			BigInteger fermat = TESTCASE.mod(DATA);
-			int testAgainst = fermat.intValue();
-			isAPrime = (testAgainst == 1 % data);
-			iteration ++;
-		}*/
-		
-		//return isAPrime;
 	}
  
     public static void main(String[] args) 
